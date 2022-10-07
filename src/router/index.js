@@ -8,6 +8,7 @@ const router = createRouter({
     { path: '/setup', name: 'setup', component: () => import('../views/SetupView.vue') },
     { path: '/Firebase', name: 'Firebase', component: () => import('../views/FirebaseView.vue') },
     { path: '/Services', name: 'Services', component: () => import('../views/ServicesView.vue') },
+    { path: '/Services2', name: 'Services2', component: () => import('../views/Services2View.vue') },
     { path: '/Map', name: 'Map', component: () => import('../views/MapView.vue') },
     { path: '/Sncf', name: 'Sncf', component: () => import('../views/SncfView.vue') },
     { path: '/Bar', name: 'Bar', component: () => import('../views/ChartJs/BarView.vue') },

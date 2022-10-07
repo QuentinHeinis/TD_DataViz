@@ -23,7 +23,10 @@ import { RouterLink, RouterView } from 'vue-router'
                         <RouterLink class="nav-link" to="/Firebase">Firebase</RouterLink>
                     </li>
                     <li class="nav-item">
-                        <RouterLink class="nav-link" to="/Services">Services</RouterLink>
+                        <RouterLink class="nav-link" to="/Services">Services 01</RouterLink>
+                    </li>
+                    <li class="nav-item">
+                        <RouterLink class="nav-link" to="/Services2">Services 02</RouterLink>
                     </li>
                     <li class="nav-item">
                         <RouterLink class="nav-link" to="/Map">Map</RouterLink>

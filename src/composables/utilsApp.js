@@ -6,7 +6,7 @@ export const getLabels = (lstData, label) => {
     let retour = []
     let set = new Set()
     let tabObj = []
-    lstData.value.forEach((element) => {
+    lstData.forEach((element) => {
         switch (val.length) {
             case 1:
                 if (occurence == 1) { set.add(element[val[0]]) }
@@ -61,9 +61,9 @@ export const countDatas = (lst, lstLabel, libLabel) => {
     let occurence = t1[1]
     let val = lbl.split('.')
     let retour = []
-    lstLabel.value.forEach((label) => {
+    lstLabel.forEach((label) => {
         let nb = 0
-        lst.value.forEach((element) => {
+        lst.forEach((element) => {
             switch (val.length) {
                 case 1:
                     if (occurence == 1) {

@@ -19,25 +19,25 @@ onMounted(async () => {
     await getVillageois()
         .then(response => {
             listeVillageois.value = response
-            lstLabelsVillageois.value = getLabels(listeVillageois, 'laSpecialite.nom#1')
+            lstLabelsVillageois.value = getLabels(listeVillageois.value, 'laSpecialite.nom#1')
             // console.log({ lstLabelsVillageois })
-            lstDataVillageois.value = countDatas(listeVillageois, lstLabelsVillageois, 'laSpecialite.nom#1')
+            lstDataVillageois.value = countDatas(listeVillageois.value, lstLabelsVillageois.value, 'laSpecialite.nom#1')
         })
     await getVideos()
         .then(response => {
             listeVideos.value = response
-            lstLabelsVideos.value = getLabels(listeVideos, 'lesCategories.lib#multi')
+            lstLabelsVideos.value = getLabels(listeVideos.value, 'lesCategories.lib#multi')
             // console.log({ lstLabelsVideos })
-            lstDataVideos.value = countDatas(listeVideos, lstLabelsVideos, 'lesCategories.lib#multi')
+            lstDataVideos.value = countDatas(listeVideos.value, lstLabelsVideos.value, 'lesCategories.lib#multi')
             console.log({ lstDataVideos })
 
         })
     await getGares('Doubs')
         .then(response => {
             listeGares.value = response.records
-            lstLabelsGares.value = getLabels(listeGares, 'fields.commune#1')
+            lstLabelsGares.value = getLabels(listeGares.value, 'fields.commune#1')
             // console.log({ lstLabelsGares })
-            lstDataGares.value = countDatas(listeGares, lstLabelsGares, 'fields.commune#1')
+            lstDataGares.value = countDatas(listeGares.value, lstLabelsGares.value, 'fields.commune#1')
 
         })
 })
