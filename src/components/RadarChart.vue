@@ -290,7 +290,7 @@ const byAge = () => {
                 :width="width" :height="height" />
         </div>
         <div v-else>
-            <img src="images/loading-23.gif" alt="loading" class="img-fluid">
+            <img src="/images/loading-23.gif" alt="loading" class="img-fluid">
         </div>
     </div>
 </template>
