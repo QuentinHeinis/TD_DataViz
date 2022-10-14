@@ -22,6 +22,17 @@ import { RouterLink, RouterView } from 'vue-router'
                     <li class="nav-item">
                         <RouterLink class="nav-link" to="/Firebase">Firebase</RouterLink>
                     </li>
+                    <li class="nav-item dropdown mr-0">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown02" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Tris et filtres
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown2">
+                            <RouterLink class="dropdown-item" to="/TriFiltre01">Tris et Filtres Villageois</RouterLink>
+                            <RouterLink class="dropdown-item" to="/TriFiltre02">Tris et Filtres Films</RouterLink>
+
+                        </div>
+                    </li>
                     <li class="nav-item">
                         <RouterLink class="nav-link" to="/Services">Services 01</RouterLink>
                     </li>
@@ -53,32 +64,7 @@ import { RouterLink, RouterView } from 'vue-router'
                         </div>
                     </li>
 
-                    <li class="nav-item dropdown mr-0">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdown02" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            TP
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="dropdown2">
-                            <a class="dropdown-item disabled" href="#"><b>VueJs</b></a>
-                            <a class="dropdown-item" href="#">TP01 - xxxx</a>
-                            <a class="dropdown-item" href="#">TP02 - xxxx</a>
-                            <a class="dropdown-item" href="#">TP03 - xxxx</a>
-                            <a class="dropdown-item" href="#">TP04 - xxxx</a>
-                            <a class="dropdown-item" href="#">TP05 - xxxx</a>
-                            <a class="dropdown-item" href="#">TP06 - xxxx</a>
-                            <a class="dropdown-item" href="#">TP07 - xxxx</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item disabled" href="#"><b>ChartJs</b></a>
-                            <a class="dropdown-item" href="#">TP01 - xxxx</a>
-                            <a class="dropdown-item" href="#">TP02 - xxxx</a>
-                            <a class="dropdown-item" href="#">TP03 - xxxx</a>
-                            <a class="dropdown-item" href="#">TP04 - xxxx</a>
-                            <a class="dropdown-item" href="#">TP05 - xxxx</a>
-                            <a class="dropdown-item" href="#">TP06 - xxxx</a>
-                            <a class="dropdown-item" href="#">TP07 - xxxx</a>
 
-                        </div>
-                    </li>
                 </ul>
 
 
