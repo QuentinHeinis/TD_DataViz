@@ -30,6 +30,10 @@ import { RouterLink, RouterView } from 'vue-router'
                         <div class="dropdown-menu" aria-labelledby="dropdown2">
                             <RouterLink class="dropdown-item" to="/TriFiltre01">Tris et Filtres Villageois</RouterLink>
                             <RouterLink class="dropdown-item" to="/TriFiltre02">Tris et Filtres Films</RouterLink>
+                            <RouterLink class="dropdown-item" to="/TriFiltre03">Tris et Filtres + graph</RouterLink>
+                            <RouterLink class="dropdown-item" to="/TriFiltre04">Tris et Filtres Villageois02
+                            </RouterLink>
+                            <RouterLink class="dropdown-item" to="/TriFiltre05">Tris et Filtres Film02</RouterLink>
 
                         </div>
                     </li>
