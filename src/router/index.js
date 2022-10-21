@@ -14,6 +14,7 @@ const router = createRouter({
     { path: '/TriFiltre03', name: 'TriFiltre03', component: () => import('../views/TriFiltre03View.vue') },
     { path: '/TriFiltre04', name: 'TriFiltre04', component: () => import('../views/TriFiltre04View.vue') },
     { path: '/TriFiltre05', name: 'TriFiltre05', component: () => import('../views/TriFiltre05View.vue') },
+    { path: '/TriFiltre06', name: 'TriFiltre06', component: () => import('../views/TriFiltre06View.vue') },
     { path: '/Map', name: 'Map', component: () => import('../views/MapView.vue') },
     { path: '/Sncf', name: 'Sncf', component: () => import('../views/SncfView.vue') },
     { path: '/Bar', name: 'Bar', component: () => import('../views/ChartJs/BarView.vue') },

@@ -34,6 +34,7 @@ import { RouterLink, RouterView } from 'vue-router'
                             <RouterLink class="dropdown-item" to="/TriFiltre04">Tris et Filtres Villageois02
                             </RouterLink>
                             <RouterLink class="dropdown-item" to="/TriFiltre05">Tris et Filtres Film02</RouterLink>
+                            <RouterLink class="dropdown-item" to="/TriFiltre06">Tris et Filtres All</RouterLink>
 
                         </div>
                     </li>

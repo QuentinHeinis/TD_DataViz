@@ -14,7 +14,10 @@ export const densite = (base, datas) => {
     let tabBorder = []
     let deg = 0.1
     datas.forEach((val) => {
-        let transp = nbVal * val + deg
+
+        let transp
+        if (valMin < valMax) { transp = nbVal * val * 0.8 + deg }
+        else { transp = val * 0.7 }
         let color = base.replace('#deg#', transp)
         let border = base.replace('#deg#', 1)
         tabVal.push(color)
